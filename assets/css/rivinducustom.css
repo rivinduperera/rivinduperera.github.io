@@ -1,0 +1,26 @@
+#pubtaskspacer {
+  padding-right: 3px;
+}
+
+.jumbotron {
+  padding: 8px 0;
+}
+
+.jumbotron p {
+  margin-bottom: 1px;
+}
+
+.menu {text-align:justify;}
+.menu:after { content:' '; display:inline-block; width: 100%; height: 0 }
+.menu > span {display:inline-block} 
+
+.sorting
+{
+cursor: pointer;
+}
+
+.externalLink
+{
+	text-decoration: none; 
+    color: black; 
+}
