@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="citation_title" content="An Evaluation of POS tagging for Tweets Using HMM Modelling" /> 
+    <meta name="citation_publication_date" content="2015" /> 
+    <meta name="citation_author" content="Perera, Rivindu" /> 
+    <meta name="citation_pdf_url" content="acsc2015.pdf" />
+    <meta name="citation_conference_title" content="38th Australasian Computer Science Conference (ACSC)" />
+    
+    <link rel="icon" href="/assets/rivinduperera.ico">
+
+    <title>An Evaluation of POS tagging for Tweets Using HMM Modelling</title>
+
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+	
+	<link href="/assets/css/rivinducustom.css" rel="stylesheet">
+
+    <link href="/assets/css/jumbotron-narrow.css" rel="stylesheet">
+
+    <script src="/assets/js/ie-emulation-modes-warning.js"></script>
+	
+	<script type="text/javascript" src="/assets/js/rivinducustom.js"></script>
+    
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-63947921-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills pull-right">
+            <li role="presentation"><a href="/index.html">Home</a></li>
+            <li role="presentation" class="active"><a href="/publications">Publications</a></li>
+            <li role="presentation"><a href="/softwares">Softwares</a></li>
+			<li role="presentation"><a href="/talks">Talks</a></li>
+			<li role="presentation"><a href="/travelling">Travelling</a></li>
+          </ul>
+        </nav>
+        <h3 class="text-muted">Rivindu Perera</h3>
+      </div>
+
+      <div class="row marketing" id="topcontent">
+	  
+	  
+	  </br>
+        <div class="col-lg-12" id="pubcontent">
+		
+          <div class="well well-small conferencepub allpub">
+            <h4>An Evaluation of POS tagging for Tweets Using HMM Modelling</h4>
+              <p><b>Abstract</b></br>
+            Recently there has been an increased demand for natural language processing tools that work well on unstructured and noisy texts such as texts from Twitter messages. It has been shown that tools developed for structured texts, do not work well when used on unstructured texts hence necessitates considerable customization and re-training for the tools to be able to achieve the same accuracy on unstructured texts. This paper presents the results of testing a HMM (Hidden Markov Model) based POS (Part-Of-Speech) tagger customized for unstructured texts. The tagger was trained on Tweeter messages on existing publicly available data and customized for abbreviations and named entities common in Tweets. We evaluated the tagger firstly training and testing on the same source corpus and later did cross-validation testing by training on one Twitter corpus and testing on a different Twitter corpus. We also did similar experiments with the datasets using a CRF (Conditional Random Frequency) based state-of-the-art POS tagger customized for Tweet messages. The results show that the CRF-based POS tagger from GATE performed slightly better compared to the HMM model at token level, however at the sentence level the performances were approximately the same. An even more intriguing result was that the cross-validation experiments showed that both the tagger's results deteriorated by approximately 25% at the token level and a massive 80% at the sentence level. This suggests vast differences between the two Tweet corpora used and emphasizes the importance of recall values for NLP systems. A detailed analysis of this deterioration is presented and the HMM trained model together with the data has also been made available for research purposes.
+              
+            </p>
+			<div class="pull-right">
+				<a href="acsc2015.pdf"><span class="glyphicon glyphicon-file" aria-hidden="true"></span> PDF</a><span id="pubtaskspacer"></span>
+				<a href="acsc2015.bib"><span class="glyphicon glyphicon-copy" aria-hidden="true"></span> BibTeX </a><span id="pubtaskspacer"></span>
+			</div>		  
+		  </div>
+
+		  
+        </div>
+
+        
+      </div>
+
+      <footer class="footer">
+         <a href="/license"><p>© 2015 Rivindu Perera</p></a>
+      </footer>
+
+    </div>
+
+
+    <script src="/assets/js/ie10-viewport-bug-workaround.js"></script>
+  
+
+</body></html>
