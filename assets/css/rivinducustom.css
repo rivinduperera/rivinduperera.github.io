@@ -22,5 +22,6 @@ cursor: pointer;
 .externalLink
 {
 	text-decoration: none; 
-    color: black; 
+    font-style: normal;
+    color: #333;
 }
