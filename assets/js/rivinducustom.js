@@ -70,7 +70,7 @@ function filterByYear(yearnum)
 {
     hideAllPubs();
     
-    var divsToShow = document.getElementsByClassName(yearnum);
+    var divsToShow = document.getElementsByClassName(""+yearnum+"");
 
     for(var i = 0; i < divsToShow.length; i++)
     {
