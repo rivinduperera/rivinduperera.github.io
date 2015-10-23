@@ -32,11 +32,11 @@ function showOnlyDissertations()
     
     hideAllPubs();
     
-    var divsToHide = document.getElementsByClassName("dissertationpub");
+    var divsToShow = document.getElementsByClassName("dissertationpub");
 
-    for(var i = 0; i < divsToHide.length; i++)
+    for(var i = 0; i < divsToShow.length; i++)
     {
-		divsToHide[i].style.display = 'block';
+		divsToShow[i].style.display = 'block';
     }
 	
 	
@@ -57,18 +57,23 @@ function showOnlyConferencePapers()
     
     hideAllPubs();
     
-    var divsToHide = document.getElementsByClassName("conferencepub");
+    var divsToShow = document.getElementsByClassName("conferencepub");
 
-    for(var i = 0; i < divsToHide.length; i++)
+    for(var i = 0; i < divsToShow.length; i++)
     {
-		divsToHide[i].style.display = 'block';
+		divsToShow[i].style.display = 'block';
     }
     
 }
 
-function filterByYear()
+function filterByYear(yearnum)
 {
-    showAllPubs();
+    hideAllPubs();
     
-    
+    var divsToShow = document.getElementsByClassName(yearnum);
+
+    for(var i = 0; i < divsToShow.length; i++)
+    {
+		divsToShow[i].style.display = 'block';
+    }
 }
