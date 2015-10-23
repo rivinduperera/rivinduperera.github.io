@@ -20,16 +20,6 @@ function hideAllPubs()
 
 function showOnlyDissertations()
 {
-    /*
-	showAllPubs();
-	var divsToHide = document.getElementsByClassName('conferencepub'),i;
-
-    for(var i = 0; i < divsToHide.length; i++)
-    {
-		divsToHide[i].style.display = 'none';
-    }
-    */
-    
     hideAllPubs();
     
     var divsToShow = document.getElementsByClassName("dissertationpub");
@@ -38,23 +28,10 @@ function showOnlyDissertations()
     {
 		divsToShow[i].style.display = 'block';
     }
-	
-	
 }
 
 function showOnlyConferencePapers()
 {
-    /*
-	showAllPubs();
-	
-	var divsToHide = document.getElementsByClassName("dissertationpub");
-
-    for(var i = 0; i < divsToHide.length; i++)
-    {
-		divsToHide[i].style.display = 'none';
-    }
-	*/
-    
     hideAllPubs();
     
     var divsToShow = document.getElementsByClassName("conferencepub");
