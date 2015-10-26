@@ -36,11 +36,11 @@
       <div class="header clearfix">
         <nav>
           <ul class="nav nav-pills pull-right">
-            <li role="presentation" class="active"><a href="/">Home</a></li>
-            <li role="presentation"><a href="/publications">Publications</a></li>
-            <li role="presentation"><a href="/softwares">Softwares</a></li>
-			<li role="presentation"><a href="/talks">Talks</a></li>
-			<li role="presentation"><a href="/travelling">Travelling</a></li>
+            <li itemscope itemtype="http://schema.org/Article" role="presentation" class="active"><a itemprop="url" href="/">Home</a></li>
+            <li itemscope itemtype="http://schema.org/Article" role="presentation"><a itemprop="url" href="/publications">Publications</a></li>
+            <li itemscope itemtype="http://schema.org/Article" role="presentation"><a itemprop="url" href="/softwares">Softwares</a></li>
+			<li itemscope itemtype="http://schema.org/Article" role="presentation"><a itemprop="url" href="/talks">Talks</a></li>
+			<li itemscope itemtype="http://schema.org/Article" role="presentation"><a itemprop="url" href="/travelling">Travelling</a></li>
           </ul>
         </nav>
         <h3 class="text-muted">Rivindu Perera</h3>
@@ -49,12 +49,13 @@
       <div class="jumbotron">
 		
 		<div class="row">
-			<div class="col-lg-2" >
-				<img src="/images/rivindu_perera.png" class="img-thumbnail" alt="Rivindu Perera" width="304" height="236">
+			<div itemscope itemtype="http://schema.org/Article" class="col-lg-2" >
+				<img itemprop="image" src="/images/rivindu_perera.png" class="img-thumbnail" alt="Rivindu Perera" width="304" height="236">
 			</div>
 			<div class="col-lg-10">
 				<span style="text-align: justify; display:block;">
-					<i>My research interests lie in the fields of Natural Language Processing and Linked Data. Within these fields, my current research projects investigate language generation, social media text mining, and processing Linked Data.
+					<i itemscope itemtype="http://schema.org/Article">
+<span itemprop="articleBody">My research interests lie in the fields of Natural Language Processing and Linked Data. Within these fields, my current research projects investigate language generation, social media text mining, and processing Linked Data.</span>
 					Please visit my contact page to find ways to keep in touch with me: </i>
 					<a href="/contact" title="Email"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></a>
 				</span>
@@ -88,7 +89,7 @@
       </div>
 
       <footer class="footer">
-          <a href="/license"><p>© 2015 Rivindu Perera</p></a>
+          <a href="/license"><p itemscope itemtype="http://schema.org/Article"><meta itemprop="datePublished" content="2015-06-02">© 2015 <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Rivindu Perera</span> </span></p></a>
       </footer>
 
     </div>
