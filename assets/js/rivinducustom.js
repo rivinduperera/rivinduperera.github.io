@@ -67,3 +67,4 @@ function filterByYear(yearnum)
 		divsToShow[i].style.display = 'block';
     }
 }
+
