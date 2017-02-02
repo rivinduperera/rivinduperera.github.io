@@ -27,6 +27,7 @@ cursor: pointer;
 }
 
 /* additional label types */
+/*
 [class*='-dark'] {
 	background-color:#02243C;
     color:#f0f0f0;
@@ -43,11 +44,27 @@ cursor: pointer;
 	background-color:#005DB3;
     color:#f8f8f8;
 }
+*/
 [class*='-gray'] {
 	background-color:#e6e6e6;
     color:#666;
 }
+[class*='-darkgreen'] {
+	background-color:##428642;
+    color:#fff;
+}
+
 [class*='-green'] {
 	background-color:#5BC236;
+    color:#fff;
+}
+
+[class*='-magenta'] {
+	background-color:#ce8a8a;
+    color:#fff;
+}
+
+[class*='-pink'] {
+	background-color:#d6a0aa;
     color:#fff;
 }
