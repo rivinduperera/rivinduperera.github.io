@@ -56,6 +56,19 @@ function showOnlyJournalPapers()
     
 }
 
+function showOnlyTechnicalReports()
+{
+    hideAllPubs();
+    
+    var divsToShow = document.getElementsByClassName("technicalreportpub");
+
+    for(var i = 0; i < divsToShow.length; i++)
+    {
+		divsToShow[i].style.display = 'block';
+    }
+    
+}
+
 function filterByYear(yearnum)
 {
     hideAllPubs();
