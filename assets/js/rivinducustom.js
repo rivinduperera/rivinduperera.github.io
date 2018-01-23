@@ -18,6 +18,18 @@ function hideAllPubs()
     }
 }
 
+function showOnlyTheses()
+{
+	hideAllPubs();
+    
+    var divsToShow = document.getElementsByClassName("thesispub");
+
+    for(var i = 0; i < divsToShow.length; i++)
+    {
+		divsToShow[i].style.display = 'block';
+    }
+}
+
 function showOnlyDissertations()
 {
     hideAllPubs();
